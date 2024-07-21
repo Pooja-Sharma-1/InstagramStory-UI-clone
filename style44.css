@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(98, 188, 230);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#page{
+    height: 500px;
+    width: 300px;
+    background-color:white;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+   
+    
+}
+#full-scr{
+    height: 100%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#load{
+    height: 5px;
+    background-color: rgba(255, 251, 251, 0.74);
+}
+#move{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+#nav{
+    height: 35px;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    height: 100%;
+    width: 45%;
+    position: relative;
+    /* background-color: black */
+    overflow: hidden;
+
+}
+#logo img{
+   height: 190%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+   margin-top: -12px;
+   position: absolute;
+   
+   
+}
+#right{
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* #right #add{
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#add h2{
+    margin-bottom: -2px;
+    font-size: 25px;
+} */
+#right i{
+    font-size: 23px;
+}
+#upper{
+    height: 100px;
+    width: 100%;
+    border-bottom: .5px solid rgba(141, 137, 137, 0.377);
+    /* padding: 10px; */
+    position: relative;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto; 
+}
+#upper::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    height:60px;
+    width: 60px;
+    background-image: linear-gradient(to bottom left, blue,purple,rgb(233, 137, 28),rgb(251, 255, 0));
+    border-radius: 50%;
+    padding: 3px;
+    margin: 4px;
+    position: relative;
+    display: inline-block;
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #fff;
+   
+    
+    
+    
+}
+.story h3{
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    bottom: 10%;
+    text-align: center;
+}
+#middle{
+    height: 75%;
+    width: 100%;
+    position: relative;
+    white-space: nowrap;
+    overflow-y: auto;
+}
+#middle::-webkit-scrollbar{
+    display: none;
+}
+.id{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative;
+    display: block;
+}
+#top{
+    height: 13%;
+    width: 100%;
+    /* background-color: black; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#lef{
+    height: 100%;
+    width: 40%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    align-items: center;
+
+}
+#IMG{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 4px;
+    border: 2px solid black;
+}
+#IMG img{
+    height: 100%;
+    width:100% ;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+#top i{
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 15px;
+}
+#post{
+    height: 75%;
+    width: 100%;
+    position: relative;
+}
+#post img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#bot{
+    height: 10%;
+    width: 100%;
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    padding:0 5px;
+    padding-top: 2px;
+    border-bottom: 1px solid rgba(139, 138, 138, 0.274);
+    
+}
+#fame{
+    height: 100%;
+    width: 36%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+
+}
+#fame i{
+    font-size: 24px;
+    font-weight: 400;
+}
+/* .hrt{
+    height: 70%;
+    background-color: blue;
+} */
+/* .hrt i {
+    color: #686565;
+    font-size: 28px;
+} */
+.ri-heart-3-fill{
+    color: black;
+}
+#bot i{
+    font-size: 24px;
+    font-weight: 400; 
+    /* background-color: blue; */
+}
+#true{
+    color: red;
+}
+
+#false{
+    color: black;
+}
